@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    padding: 0;
+    font: 16px;
+    font-family: arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Header
+-----------------------------------------*/
+
+/* NAV BAR 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _*/
+
+
+/* Banners
+-----------------------------------------*/
+#banner { /* div that houses img */
+    width: 100%;
+    overflow: hidden;
+    max-height: 400px; /* controls the max height of banner */
+}
+
+#banner img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover; /* cover the container */
+    object-position: 0 -100px;
+}
+
+/* Main
+-----------------------------------------*/
+main {
+    flex: 1;
+    padding: 10px;
+}
+
+/* Foot
+-----------------------------------------*/
+footer {
+    background-color: rgb(109, 104, 104)
+}
+
+/* Button and Link Styles 
+-----------------------------------------*/
+a {
+
+}
+
+
+
+/* Media Queries - Responsiveness
+-----------------------------------------*/
+
+/* < 750px */
+@media (max-width: 750px){
+
+}
+
+/* < 1024px */
+@media (max-width: 1024px){
+
+}
